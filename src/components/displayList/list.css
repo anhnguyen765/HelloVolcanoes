@@ -1,0 +1,11 @@
+.ag-theme-quartz-dark {
+    height: 50vh;
+    width: 100%;
+    padding: 30px;
+    --ag-background-color: #433e2f;
+    --ag-foreground-color: #F3D18C;
+    --ag-header-background-color: #433e2f;
+    --ag-header-foreground-color: #F7B075;
+    --ag-font-size: 1em;
+    --ag-cell-widget-spacing: 5px;
+}

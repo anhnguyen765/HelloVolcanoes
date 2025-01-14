@@ -1,0 +1,26 @@
+.volcanoesListPage {
+    position: absolute;
+    top: 10px;
+    width: 100vw;
+
+}
+
+.volcanoes_search {
+    width: 100vw;
+    height:auto;
+    border-radius: 48px;
+    text-align: center;
+    padding-top: 35px;
+    
+}
+.volcanoes_search h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #F59646;
+}
+
+.volcanoes_list {
+    margin-top: 20px;
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;}

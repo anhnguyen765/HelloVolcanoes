@@ -1,0 +1,27 @@
+.volcano {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    display: flex;
+}
+
+.volcano_details{
+   margin-left: 60px;
+   width: 40vw;
+}
+
+.volcano_details h1 {
+    line-height: normal;
+}
+.volcano_details h2 {
+    color: #C33B18
+}
+.volcano_details h3 {
+    font-size: large;
+}
+
+.volcano_map {
+    margin-top: 50px;
+    padding: 20px;
+    margin-right: 20px;
+}

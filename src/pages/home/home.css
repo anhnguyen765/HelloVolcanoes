@@ -1,0 +1,76 @@
+.home {
+    display: inline;
+    text-align: center;
+}
+
+.volcanoes_highlight {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.volcano_highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    text-align: center;
+}
+.volcano_highlight img {
+    width: 100%;
+    height: auto;
+}
+
+.volcano_highlight h3 {
+   margin-bottom: 0;
+}
+
+.volcano_image p {
+    font-size: small;
+}
+.home_header {
+   position: relative;
+   display: inline-block;
+   background-color: black;
+   margin-bottom: 0px;
+   margin-top: 40px;
+
+}
+
+.header p {
+    font-size: small;
+}
+
+#background_image {
+    display: block;
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+    opacity: 0.2;
+}
+#heading {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#divider {
+    color: #F59646;
+}
+
+#explore_more {
+    margin-top: 0px;
+    animation: jump 0.5s infinite alternate;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
